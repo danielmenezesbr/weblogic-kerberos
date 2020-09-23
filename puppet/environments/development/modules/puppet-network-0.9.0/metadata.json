@@ -1,0 +1,65 @@
+{
+  "name": "puppet-network",
+  "version": "0.9.0",
+  "author": "Vox Pupuli",
+  "summary": "Manage non-volatile network configuration",
+  "license": "Apache-2.0",
+  "source": "https://github.com/voxpupuli/puppet-network",
+  "project_page": "https://github.com/voxpupuli/puppet-network",
+  "issues_url": "https://github.com/voxpupuli/puppet-network/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.13.1 < 5.0.0"
+    },
+    {
+      "name": "puppet/filemapper",
+      "version_requirement": ">= 2.0.1 < 3.0.0"
+    },
+    {
+      "name": "puppet/boolean",
+      "version_requirement": ">= 1.0.1 < 2.0.0"
+    },
+    {
+      "name": "camptocamp/kmod",
+      "version_requirement": ">= 2.0.6 < 3.0.0"
+    }
+  ],
+  "data_provider": null,
+  "tags": [
+    "network",
+    "voxpupuli"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.7.0 < 6.0.0"
+    }
+  ]
+}

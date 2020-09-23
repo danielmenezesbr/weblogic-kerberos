@@ -1,0 +1,11 @@
+*.keytab
+*.bin
+.idea/
+.vagrant/
+software/*.jar
+software/*.tar.gz
+software/*.exe
+software/*.log
+software/*.zip
+software/*.htm
+

@@ -1,0 +1,7 @@
+virtualbox:
+  box:     "danielmenezes/centos-7-1708-x86_64"
+  #box_url: "file://./software/centos-7-1708-x86_64.box"
+  #box_url: "https://dl.dropboxusercontent.com/s/7dr5ewj4mvohynu/centos-7-1708-x86_64.box"
+vmware:
+  box:     "centos-7-1611-x86_64-vmware"
+  box_url: "file://./software/centos-7-1611-x86_64-vmware.box"
